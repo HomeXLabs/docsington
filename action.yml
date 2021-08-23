@@ -1,10 +1,10 @@
-name: 'Wait'
+name: 'Docsington'
 description: 'Wait a designated number of milliseconds'
 inputs:
-  milliseconds:  # id of input
-    description: 'number of milliseconds to wait'
+  words:  # id of input
+    description: 'Random word'
     required: true
-    default: '1000'
+    default: 'hello world'
 outputs:
   time: # output will be available to future steps
     description: 'The message to output'
