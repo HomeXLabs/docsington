@@ -3,8 +3,8 @@ const metadata = require('./metadata');
 const ghIssues = require('./github-issues');
 
 
-
 let docsington = function (words) {
+
   return new Promise((resolve) => {
     if (typeof words !== 'string') {
       throw new Error('Value of words is not a string');
